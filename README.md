@@ -1,2 +1,3 @@
-# inventory
-aplikasi kelola stok berbasis web
+# Repository-Baru
+# ivantory
+# kelola-stok

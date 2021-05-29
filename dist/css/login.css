@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* background-color: rgb(211, 206, 206); */
+    /* background:url(../img/oh.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background-color: rgba(255,255,255,0.0); 
+    /*background : url(../img/boxed-bg.png);*/
+    padding: 40px;
+    box-sizing: border-box;
+    border: 1px solid rgba(0,0,0,.1);
+    /* box-shadow: 0 15px 25px rgba(0,0,0,.5); */
+    box-shadow: 5px 10px 10px rgba(0,0,0);
+    border-radius: 10px;
+    border-color: black;
+}
+
+.box h2{
+    margin: 0 0 40px;
+    padding: 0;
+    color: rgb(31, 29, 29);
+    text-transform: uppercase;
+}
+
+.box .inputBox{
+    position: relative;
+}
+
+.box .inputBox input{
+    font-size: 18px;
+    padding: 10px 0;
+    margin-bottom: 30px;
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: none;
+    outline: none;
+    border: none;
+    background-color: rgba(255,255,255,0); 
+    border-bottom: 2px solid rgb(77, 69, 69);
+}
+
+.box .inputBox label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 14px;
+    color: rgb(31, 29, 29);
+    pointer-events: none;
+    transition: .5s;
+}
+
+.box [type="submit"]{
+    width: 100%;
+    height: 40px;
+    border-bottom: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: rgb(0, 0, 0);
+    color: #fff;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+.box [type="submit"]:hover{
+    background:maroon;
+}
+
+.box .inputBox input:focus ~ label,
+.box .inputBox input:valid ~ label{
+    top: -20px;
+    left: 0;
+    color: maroon;
+    font-size: 12px;
+}
+
+.box .inputBox input:focus,
+.box .inputBox input:valid{
+    border-bottom: 2px solid maroon;
+} 
+
+.footer {
+	text-align: center;
+}
+
+.footer a {
+	text-decoration: none;
+    color:rgb(53, 53, 158);
+}
