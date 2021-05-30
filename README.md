@@ -1,2 +1,1 @@
-# ivantory
-# kelola-stok
+
